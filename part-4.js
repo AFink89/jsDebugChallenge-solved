@@ -10,10 +10,10 @@ Expected Result:
 => SKATE!
 */
 
-let readyToSkate = false;
-let energyLevel = 24010;
 
-if (energyLevel >= 24000) {
+let newEnergyLevel = 24010;
+
+if (newEnergyLevel >= 24000) {
   console.log("Energy level is a go!");
   readyToSkate = true;
 } else {
@@ -24,7 +24,7 @@ if (energyLevel >= 24000) {
 if (readyToSkate) {
   console.log("Grab your skateboard...");
   console.log("Ready...");
-  consoul.log("Set...");
+  console.log("Set...");
   console.log("SKATE!");
 } else {
   console.log("No skating today.");
